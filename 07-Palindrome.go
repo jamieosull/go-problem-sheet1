@@ -11,7 +11,6 @@ import (
 
 func main() {
 	var ip string
-	var ip string
 	fmt.Println("Enter string:")
 	fmt.Scanf("%s\n", &ip)
 	ip = strings.ToLower(ip)
