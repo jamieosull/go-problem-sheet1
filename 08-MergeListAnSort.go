@@ -1,4 +1,7 @@
 //Adpoted from http://austingwalters.com/merge-sort-in-go-golang/
+//
+//
+// Author: Jamie O'Sullivan;
 
 package main
 
