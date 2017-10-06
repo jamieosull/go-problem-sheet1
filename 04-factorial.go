@@ -1,8 +1,7 @@
-//Author : Jamie O Sullivan
-//Date : 05/10/17
 
 //Adapted from : https://play.golang.org/p/yW7sAyJpPe
-//				 http://golang-jp.org/pkg/math/big/				
+//				 http://golang-jp.org/pkg/math/big/	
+//Author : Jamie O Sullivan			
 package main
 
 
