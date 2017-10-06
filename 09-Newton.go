@@ -11,7 +11,7 @@ import (
 
 func z_next(z float64, x float64) float64 {
 
-	return z - ((z*z - x) / (2 * z))
+	return z - (((z * z) - x) / (2 * z))
 }
 
 func main() {
