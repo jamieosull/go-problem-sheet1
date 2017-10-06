@@ -1,4 +1,4 @@
-// Adapted fromhttps://adriann.github.io/programming_problems.html
+// Adapted fromhttp://golangcookbook.blogspot.ie/2012/11/guess-number-game-in-golang.html
 //
 //
 // Author: Jamie O'Sullivan;
@@ -17,17 +17,14 @@ func xrand(min, max int) int {
 }
 
 func main() {
-	var myname string
-	myrand := xrand(1, 6)
+	myrand := xrand(1, 10)
 	guessTaken := 0
 	var guess int
 
-	fmt.Println("Hello! What is your name?")
-	fmt.Scanf("%s", &myname)
-	fmt.Printf("Well, %s, I am thinking of a number between 1 and 6.\n", myname)
+	fmt.Printf("Hi..Take a guess of a number between 1 and 10.\n")
 
 	//this is the while loop
-	for guessTaken < 6 {
+	for guessTaken < 10 {
 		fmt.Println("Take a guess...")
 		fmt.Scanf("%d", &guess)
 		guessTaken++
@@ -42,7 +39,7 @@ func main() {
 		}
 	}
 	if guess == myrand {
-		fmt.Printf("Good job %s! You guessed my number in %d tries\n", myname, guessTaken)
+		fmt.Printf("Good job..You guessed my number in %d tries\n", guessTaken)
 	} else {
 		fmt.Printf("Nope. The number I had in mind was %d\n", myrand)
 	}
