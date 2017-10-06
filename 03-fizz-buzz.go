@@ -1,4 +1,4 @@
-// Adapted from https://tour.golang.org/welcome/1s
+// Adapted from http://wiki.c2.com/?FizzBuzzTest
 //
 //
 // Author: Jamie O'Sullivan;
