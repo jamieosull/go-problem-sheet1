@@ -1,3 +1,8 @@
+// Adapted from https://gobyexample.com/time
+//
+//
+// Author: Jamie O'Sullivan;
+
 package main
 
 import (
@@ -6,7 +11,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to the playground!")
 
 	fmt.Println("The time is", time.Now())
 }
