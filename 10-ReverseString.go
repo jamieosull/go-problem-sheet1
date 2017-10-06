@@ -1,4 +1,4 @@
-// Adapted fromhttp://golangcookbook.blogspot.ie/2012/11/guess-number-game-in-golang.html
+// Adapted fromhttps://stackoverflow.com/questions/1752414/how-to-reverse-a-string-in-go
 //
 //
 // Author: Jamie O'Sullivan;
@@ -7,7 +7,7 @@ package main
 import "fmt"
 
 func main() {
-	s := "Hello, playground"
+	s := "Software Development"
 	fmt.Println(s)
 
 	fmt.Println(Reverse(s))
