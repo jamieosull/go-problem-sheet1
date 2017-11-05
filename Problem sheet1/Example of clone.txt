@@ -1,0 +1,10 @@
+
+After you clone git, and start it from your Git Bash, Type git status..and if git is not follwing your commit, type in the following....
+
+
+git add .
+
+git commit -m "Starting problem two"
+
+
+git push

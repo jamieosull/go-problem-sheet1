@@ -1,0 +1,2 @@
+GO DECLARATION SYNTAX
+https://blog.golang.org/gos-declaration-syntax
